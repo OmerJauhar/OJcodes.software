@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+ 
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+           <a href="index.html">
+               <img style = "border-radius:50%;" src="profile.jpeg" alt="ojprofile image" width="50px" height="50px">
+      
+           </a> 
+          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+            <a href="index.html" class="mr-5 hover:text-gray-900">Home    </a>
+            <a href="about.html"class="mr-5 hover:text-gray-900">About</a>
+
+            <a href ="extra.html "class="mr-5 hover:text-gray -900">Extra</a>
+            <a href="ContactUS.html" class="mr-5 hover:text-gray-900">Contact Me </a>
+          </nav>
+        </div>
+      </header>
+
+        <script>
+          // disable right click
+          document.addEventListener('contextmenu', event => event.preventDefault());
+       
+          document.onkeydown = function (e) {
+       
+              // disable F12 key
+              if(e.keyCode == 123) {
+                  return false;
+              }
+       
+              // disable I key
+              if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+                  return false;
+              }
+       
+              // disable J key
+              if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                  return false;
+              }
+       
+              // disable U key
+              if(e.ctrlKey && e.keyCode == 85) {
+                  return false;
+              }
+          }
+       
+      </script>
+      
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap w-full mb-20">
+            <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Extra c++, python and web related codes.</h1>
+              <div class="h-1 w-20 bg-green-500 rounded"></div>
+            </div>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">These are some usual daily basis codes in form of Quizes or lab tasks that are performed by me in the university. .</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <a href="python_quizzes.html">
+        
+                <div class="bg-gray-100 p-6 rounded-lg">
+                  <img class="h-40 rounded w-full object-cover object-center mb-6" src="quizzes.png" alt="python quizzes">
+                  <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">Quizes</h3>
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Python Codes</h2>
+
+                </div>
+              </a>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              
+              <a href="python_Tasks.html">
+                <div class="bg-gray-100 p-6 rounded-lg">
+                  <img class="h-40 rounded w-full object-cover object-center mb-6" src="python_tasks.PNG" alt="python_tasks.PNG">
+                  <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">Lab Tasks</h3>
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Python codes </h2>
+
+                </div>
+              </a>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+                <a href="c++.html">
+                <div class="bg-gray-100 p-6 rounded-lg">
+                  <img class="h-40 rounded w-full object-cover object-center mb-6" src="C++.PNG" alt="content">
+                  <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">Ubuntu</h3>
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-4">C++</h2>
+  
+                </div>
+              </div>
+            </a>
+
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+                <a href="webdevelopment.html">
+                <div class="bg-gray-100 p-6 rounded-lg">
+                  <img class="h-40 rounded w-full object-cover object-center mb-6" src="web.PNG" alt="content">
+                  <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">Mix</h3>
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-4">html,css,javascript,php</h2>
+  
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+</body>
+<footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img src="oj_logo.PNG" alt="OJlogo" style="border-radius: 50%;" width="50px" height="50px">
+        <span class="ml-3 text-xl">OJcodes</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 OJcodes
+        <a href="https://mobile.twitter.com/OmerJouhar" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@OmerJouhar</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          <a href="https://mobile.twitter.com/OmerJouhar"class="ml-3 text-gray-500"><svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+            </svg>
+          </a>
+  
+        <a href="https://www.instagram.com/khan_omer7/" 
+          class="ml-3 text-gray-500">
+          <svg  fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/umer-khan-51aa671b9/" 
+        class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
+</html>

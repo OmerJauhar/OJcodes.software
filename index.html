@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>OJcodes</title>
+</head>
+<body>
+
+<header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+     <a href="index.html">
+         <img style = "border-radius:50%;" src="profile.jpeg" alt="ojprofile image" width="50px" height="50px">
+
+     </a> 
+    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+      <a href="index.html" class="mr-5 hover:text-gray-900">Home    </a>
+      <a href="about.html"class="mr-5 hover:text-gray-900">About</a>
+      <a href ="extra.html "class="mr-5 hover:text-gray -900">Extra</a>
+      <a href="ContactUS.html" class="mr-5 hover:text-gray-900">Contact Me </a>
+    </nav>
+
+  </div>
+</header>
+<script>
+    // disable right click
+    document.addEventListener('contextmenu', event => event.preventDefault());
+ 
+    document.onkeydown = function (e) {
+ 
+        // disable F12 key
+        if(e.keyCode == 123) {
+            return false;
+        }
+ 
+        // disable I key
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+            return false;
+        }
+ 
+        // disable J key
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+            return false;
+        }
+ 
+        // disable U key
+        if(e.ctrlKey && e.keyCode == 85) {
+            return false;
+        }
+    }
+ 
+</script>
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <a href="learnmore.html">
+            <img
+            class="lg:h-48 md:h-36 w-full object-cover object-center" src="finalfinalcgpa.PNG" alt="CGPA calculator image" width="50" height="50">
+          </a>
+          <div class="p-6">
+
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">PANDA </h1>
+            <p class="leading-relaxed mb-3">Panda is a virtual assistant that can perform your basic tasks such as send mail play music etc. </p>
+            <div class="flex items-center flex-wrap ">
+              <a href="learnmore.html"class="text-green-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More ->
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <a class="lg:h-48 md:h-36 w-full object-cover object-center" href="learnmore2.html"><img src="tictactoe final.PNG" alt="ticktaktoe">
+          </a>
+          <h1 class="title-font text-lg font-medium text-gray-900 mb-3">tiktaktoe code </h1>
+          <p class="leading-relaxed mb-3">python code of the game tiktaktoe</p>
+          <div class="flex items-center flex-wrap">
+            <a href="learnmore2.html"class="text-green-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More -></a>
+
+          <div class="p-6">
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <a  href="learnmore1.html" ><img class="lg:h-48 md:h-36 w-full object-cover object-center" src="ticktaktoe final image.PNG" alt="blog"></a>
+          <div class="p-6">
+
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">CGPA Calculator </h1>
+            <p class="leading-relaxed mb-3">CGPA Calulator</p>
+            <div class="flex items-center flex-wrap ">
+              <a href="learnmore1.html"class="text-green-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More ->
+ 
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="text-gray-600 body-font">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+      <img src="oj_logo.PNG" alt="OJlogo" style="border-radius: 50%;" width="50px" height="50px">
+      <span class="ml-3 text-xl">OJcodes</span>
+    </a>
+    <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 OJcodes
+      <a href="https://mobile.twitter.com/OmerJouhar" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@OmerJouhar</a>
+    </p>
+    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a href="https://mobile.twitter.com/OmerJouhar"class="ml-3 text-gray-500"><svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          </svg>
+        </a>
+
+      <a href="https://www.instagram.com/khan_omer7/" 
+        class="ml-3 text-gray-500">
+        <svg  fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/in/umer-khan-51aa671b9/" 
+      class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </span>
+  </div>
+</footer>
+
+</body>
+</html>
